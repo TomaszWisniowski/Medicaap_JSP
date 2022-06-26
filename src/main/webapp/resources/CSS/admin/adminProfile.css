@@ -1,0 +1,522 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body
+{
+    background-color: #660000;
+    display:flex;
+}
+
+
+#container
+{
+    background-color: #660000;
+
+    width: 1500px;
+    height: 1089px;
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    margin-bottom: -8px;
+        
+}
+
+
+#navigation
+{
+    background-color: #780000;
+    
+    width: 1400px;
+    height: 120px;
+    
+    margin-left: 50px;
+    margin-top: 1%;
+    
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    
+}
+
+#content
+{
+    background-color: #780000;
+    
+    width: 1400px;
+    height: 934px;
+    
+    margin-left: 50px;
+    margin-top: 1%;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+#navigation1
+{
+    width: 936px;
+    height: 120px; 
+    margin-left: 236px;
+    float:left;   
+}
+
+#login1
+{
+    width: 200px;
+    height: 110px; 
+    margin-left: 0px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+}
+
+#button1
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+        
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    
+}
+
+#button1:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button1:active
+{
+    background-color: #ff9900 
+}
+
+#picture1
+{
+    width:85px;
+    height:70px;
+}
+
+
+#button2
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button2:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button2:active
+{
+    background-color: #ff9900
+}
+
+#picture2
+{
+    width:85px;
+    height:70px;
+}
+
+
+#button3
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button3:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button3:active
+{
+    background-color: #ff9900
+}
+
+#picture3
+{
+    width:85px;
+    height:70px;
+}
+
+#button4
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button4:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button4:active
+{
+    background-color: #ff9900
+}
+
+#picture4
+{
+    width:85px;
+    height:70px;
+}
+
+#button5
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button5:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button5:active
+{
+    background-color: #ff9900
+}
+
+#picture5
+{
+    width:85px;
+    height:70px;
+}
+
+#button6
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button6:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button6:active
+{
+    background-color: #ff9900
+}
+
+#picture6
+{
+    width:85px;
+    height:70px;
+}
+
+#button7
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button7:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button7:active
+{
+    background-color: #ff9900
+}
+
+#picture7
+{
+    width:85px;
+    height:70px;
+}
+
+#button8
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button8:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button8:active
+{
+    background-color: #ff9900
+}
+
+#picture8
+{
+    width:85px;
+    height:70px;
+}
+
+#button9
+{
+    background-color: #d10000;
+    width: 100px;
+    height: 110px; 
+    margin-left: 2px;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    float:left;
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+        
+}
+
+#button9:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000
+}
+
+#button9:active
+{
+    background-color: #ff9900
+}
+
+#picture9
+{
+    width:85px;
+    height:70px;
+}
+
+#picture10
+{
+    width:500px;
+    height:500px;
+    margin-top:30px;
+}
+
+#login1
+{
+    width: 180px;
+    height: 80px;
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+#logTextInput1
+{
+    width: 180px;
+    height: 40px;
+    margin-top:-10px;
+    margin-left:20px;
+    color:white;
+    font-size: 15px;
+}
+
+#docLogInput1 input
+{
+    
+    height: 25px;
+    width: 80px;
+    margin-left:50px;
+    margin-top:18px;
+    
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    
+    transition-duration: 1.0s;
+}
+
+#docLogInput1 input:hover
+{
+    background-color: #99b3ff;
+}
+
+#docLogInput1 input:active
+{
+    background-color: #ff9900
+}

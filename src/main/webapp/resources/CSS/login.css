@@ -1,0 +1,186 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body
+{
+    background-color: #660000;
+    display:flex;
+}
+
+
+#container
+{
+    background-color: #660000;
+
+    width: 1500px;
+    height: 1089px;
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    margin-bottom: -8px;
+        
+}
+
+#content
+{
+    background-color: #780000;
+    
+    width: 1400px;
+    height: 934px;
+    
+    margin-left: 50px;
+    margin-top: 1%;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.content1
+{
+    background-color: #780000;
+    
+    width: 400px;
+    height: 250px;
+    
+    margin-left: 500px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+}
+
+#docCell1
+{
+    width: 400px;
+    height: 80px;
+    margin-top:10px;
+}
+
+#doctextInput1
+{
+    margin-top:5px;
+    margin-right: 0px;
+    color:white;
+    font-size: 25px;
+}
+
+#docInput1 input
+{
+    
+    height: 38px;
+    width: 280px;
+    
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    
+    transition-duration: 1.0s;
+}
+
+#docInput1 input:hover
+{
+    background-color: #99b3ff;
+}
+
+
+#docCell2
+{
+    width: 400px;
+    height: 80px;
+    margin-top:px;
+}
+
+#doctextInput2
+{
+    margin-top:5px;
+
+    color:white;
+    font-size: 25px;
+}
+
+#docInput2 input
+{
+    
+    height: 38px;
+    width: 280px;
+    
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    
+    transition-duration: 1.0s;
+}
+
+#docInput2 input:hover
+{
+    background-color: #99b3ff;
+}
+
+#picture9
+{
+    width:85px;
+    height:70px;
+}
+
+#picture11
+{
+    width:400px;
+    height:400px;
+    margin-top:30px;
+}
+
+#docButton input
+{
+    
+    background-color: #d10000;
+    
+    width:200px;
+    height:40px;
+    
+    margin-top: 15px;
+
+    
+    color:white;
+    font-size:20px;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius:10px;
+    
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+    box-shadow: 5px 4px 45px 13px rgba(167, 42, 42, 1);
+    
+    transition-duration: .7s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+
+#docButton input:hover
+{
+    transform: scale(0.95);
+    background-color: #a10000   
+}
+
+#docButton input:active
+{
+    background-color: #ff9900
+}
+
